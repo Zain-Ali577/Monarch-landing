@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box;   
+}
+/** Top Navbar**/
+.Navbar1{
+    font-family: "Arial", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 2em;
+    justify-content:center;
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100%;
+    align-content: center;
+    display: flex;
+    box-shadow: none;
+    padding: 10px;
+    border-bottom: 1px solid #333;
+}
+/** Navbar**/
+.Navbar2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px 40px;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+}
+.nav-links{
+display: flex;
+list-style: none;
+gap: 25px;
+margin: 0;
+padding: 13px 15px;
+}
+.nav-links a {
+text-decoration: none;
+color: white;
+font-size: 20px;
+font-family: Arial, sans-serif;
+white-space: nowrap;
+
+}
+.nav-button a {
+    background-color: #4a0404;     
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.logo img{
+    height: 150px;
+    width: 92px;
+    display: block;
+    object-fit: contain;
+}
+
+
+.hero {
+    height: 80vh; 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    background-color: #efeceb;
+}
+
+
+.container {
+    max-width: 1000px;
+    padding: 80px 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.subtitle {
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    color: #b5a069; 
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.subtitle span {
+    font-style: italic;
+    font-weight: lighter;
+}
+.main-title {
+    font-family: 'serif'; 
+    font-size: 4rem;
+    color: #1a1a1a;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.description {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #444;
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+}
+
+.Price-Tag {
+    font-style: italic;
+    font-weight: bold;
+    color: #1a1a1a;
+    font-size: 20px;
+}
+.full-width-image img {
+    width: 100%;       /* Makes image span whole screen */
+    height: auto;      /* Maintains aspect ratio */
+    display: block;    /* Removes bottom gap */
+}
+
+body {
+    background-color: #ffffff; /* Page background is white */
+    margin: 0;
+}
+
+.stats-banner {
+    background-color: #000000; /* Bar background is black */
+    
+    /* 1. This creates the WHITE space ABOVE and BELOW the bar */
+    margin: 100px 0;           
+    
+    /* 2. This creates the BLACK space INSIDE the bar */
+    padding: 80px 0;           
+    
+    width: 100%;
+}
+
+.stats-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;         /* Limits width so it stays in the middle */
+    margin: 0 auto;            /* Centers the content wrapper */
+    color: #ffffff;
+    text-align: center;
+}
+
+.stat-number {
+    font-family: 'Georgia', serif;
+    font-size: 60px;
+}
+
+.stat-label {
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.hero1 {
+    height: 50vh;
+    width: 100%; 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    background-color: white;
+}
+
+
+.container1 {
+    max-width: 1000px;
+    padding: 80px 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.subtitle1 {
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    color: #9e8851; 
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    width: 808px;
+    height: 16px;
+
+}
+.main-title1 {
+    font-family: 'sans-serif'; 
+    font-size: 4.5rem;
+    color: #1a1a1a;
+    margin-bottom: 30px;
+    font-weight: 400;
+    height: 57px;
+    width: 808px;
+    
+}
+
+.description1 {
+    font-size: 19px;
+    line-height: 1.6;
+    color: #17181b ;
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+    height: 68px;
+    width: 500px;
+}
+.work-together {
+    background-color: #f4f1ee; /* The light beige background from the image */
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.section-title {
+    font-family: 'serif';
+    font-size: 42px;
+    color: #333;
+    margin-bottom: 50px;
+    font-weight: 400;
+}
+
+.cards-container {
+    display: flex;
+    gap: 10px;               /* Small space between cards */
+    justify-content: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.work-card {
+    flex: 1;                 /* Makes all 5 cards equal width */
+    height: 300px;           /* Height of the boxes */
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+/* Individual Background Images (Replace with your actual images) */
+.card-1 { background-image: url('home1.jpg'); }
+.card-2 { background-image: url('home2.JPG'); }
+.card-3 { background-image: url('home3.JPG'); }
+.card-4 { background-image: url('home4.JPG'); }
+.card-5 { background-image: url('home5.JPG'); }
+
+/* The Dark Overlay */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Black tint at 40% opacity */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Aligns text to the top */
+    padding-top: 40px;      /* Space from the top edge */
+    transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+.overlay:hover {
+    background-color: rgba(0, 0, 0, 0.2); /* Lightens up on hover */
+}
+
+.overlay a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid white; /* The underline look from your image */
+    padding-bottom: 5px;
+}
+
+.footer-section {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 80px 0 20px 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-col {
+    flex: 1;
+    padding: 0 15px;
+}
+
+.logo-col {
+    flex: 1.5; /* Makes the logo column a bit wider */
+}
+
+.footer-logo {
+    width: 153px;
+    margin-bottom: 20px;
+}
+
+.footer-col h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li, .footer-col p {
+    font-size: 16px;
+    line-height: 2;
+    color: #cccccc;
+}
+
+.footer-col a {
+    color: #cccccc;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-col a:hover {
+    color: #ffffff;
+}
+
+.margin-top {
+    margin-top: 30px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+/* Bottom Bar */
+.footer-bottom {
+    border-top: 1px solid #333;
+    margin-top: 50px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 12px;
+    color: #888;
+}
